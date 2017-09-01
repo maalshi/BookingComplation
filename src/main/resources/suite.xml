@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "BookingCompletion" verbose ="1" parallel="false" thread-count="3">
+    <test name="BookingCompletion">
+        <classes>
+            <class name="CompleteBooking">
+            </class>
+        </classes>
+    </test>
+</suite>
